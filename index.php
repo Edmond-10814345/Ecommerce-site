@@ -81,7 +81,7 @@ if(isset($_SESSION["uid"])){
 										<label for="email">Password</label>
 										<input type="password" class="form-control" name="password" id="password" required/>
 										<p><br/></p>
-										<a href="#" style="color:white; list-style:none;">Forgotten Password</a><input type="submit" class="btn btn-success" style="float:right;">
+										<a href="customer_registration.php?register=1" style="color:white; list-style:none;">Not a member yet? Register</a><input type="submit" class="btn btn-success" style="float:right;">
 									</form>
 								</div>
 								<div class="panel-footer" id="e_msg"></div>
